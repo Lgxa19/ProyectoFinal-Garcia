@@ -5,112 +5,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Bienvenido a Genshin Impact!</title>
-    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
-    <head>
-        <!-- Navbar -->
-        <nav>
-            <div>
-                <a href="./index.html">
-                    <img src="./images/genshin.png" alt="Icono de Genshin Impact">
-                </a>
-            </div>
-            <div>
-                <nav>
-                    <a href="index.html" class="menuButton">Inicio</a>
-                    <a href="./pages/info.html" class="menuButton">Teyvat</a>
-                    <a href="./pages/baizhu.html" class="menuButton">Baizhu</a>
-                    <a href="./pages/teams.html" class="menuButton">Equipos</a>
-                    <a href="./pages/contacto.html" class="menuButton">Contacto</a>
-                </nav>
-            </div>
-        </nav>
-    </head>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">
+            <img class="logo" src="./images/genshin.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <main>
-        <!-- Hero Section -->
-        <div class="hero-section">
-            <!-- Titulo -->
-            <h1 class="hero-text">¡Bienvenido a Teyvat!</h1>
-
-            <!-- Boton -->
-            <a href="./pages/info.html" class="hero-button">Empezar a explorar</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+            </ul>
         </div>
-        <div>
-            <!-- Titulo y parrafo -->
-            <div class="h2Div">
-                <h2>
-                    ¡Conoce muchos lugares y personas interesantes!
-                </h2>
-            </div>
-            <div class=".parrafo">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae a itaque quas maxime laboriosam
-                    expedita aspernatur ipsa, fugiat quam ipsam impedit repellat esse quos fuga? Harum magnam recusandae
-                    minus fugit?
-                </p>
-            </div>
-            <div class="card-container">
-                <!-- Primera Card -->
-                <div class="card">
-                    <img src="./images/Baizhu.webp" alt="Card Image 1">
-                    <p>This is the first card with an image and a text paragraph.</p>
-                </div>
+    </nav>
 
-                <!-- Segunda Card -->
-                <div class="card">
-                    <img src="./images/Baizhu.webp" alt="Card Image 2">
-                    <p>This is the second card with an image and a text paragraph.</p>
-                </div>
+    <!-- Fullwidth 2-column section -->
+    <section class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-md-6">
+                <h2 class="text-uppercase">Welcome to our website</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna
+                    sed, convallis ex.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/1615468022_youloveit_com_wallpaper_genshin_impact11.jpg" alt="Image"
+                    class="img-fluid">
+            </div>
+        </div>
+    </section>
 
-                <!-- Tercera Card -->
+    <!-- Card section -->
+    <section class="container py-5">
+        <h2 class="text-uppercase">Our Features</h2>
+        <div class="row">
+            <div class="col-md-3">
                 <div class="card">
-                    <img src="./images/Baizhu.webp" alt="Card Image 3">
-                    <p>This is the third card with an image and a text paragraph.</p>
-                </div>
-                <!-- Cuarta Card -->
-                <div class="card">
-                    <img src="./images/Baizhu.webp" alt="Card Image 3">
-                    <p>This is the third card with an image and a text paragraph.</p>
+                    <img src="./images/genshin-impact-scenery-uhdpaper.com-hd-3.2969.jpg" alt="Card Image 1" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Parrafo -->
-        <div class="parrafo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem placeat quo velit. Voluptatibus
-                expedita vero, unde aliquid rem incidunt provident asperiores, vel deserunt iusto facilis quis labore
-                qui ut necessitatibus esse consectetur id omnis quas sint explicabo. Corporis, officiis.</p>
-        </div>
-        <!-- Imagenes -->
-        <div class="image-container">
-            <img src="./images/Baizhu.webp" alt="Image 1">
-            <img src="./images/Baizhu.webp" alt="Image 1">
-            <img src="./images/Baizhu.webp" alt="Image 1">
-        </div>
-        <!-- Info section -->
-        <div class="infoSection">
-            <div>
-                <img src="./images/Genshin-Impact-Mondstadt-art.jpg" alt="">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./images/genshin-impact-scenery-uhdpaper.com-hd-3.2969.jpg" alt="Card Image 2" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 2</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias debitis veritatis vel perferendis laudantium optio fugit amet deserunt aliquid omnis laborum quo, ut suscipit adipisci ipsa nesciunt accusantium doloremque minus.
-                Ducimus tempora vitae, possimus harum ipsam voluptatibus impedit inventore libero? Harum, mollitia nam. Vitae aliquid rerum quas sequi nesciunt quibusdam facilis necessitatibus veritatis. Numquam odit tempora aut est quidem quod?
-                Adipisci, labore ipsam rem beatae doloribus accusamus quis nemo facere sit dolores eligendi cumque quidem, harum repellat. Optio, quasi aut quo voluptas quas nostrum non ad totam corrupti est sunt.</p>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./images/genshin-impact-scenery-uhdpaper.com-hd-3.2969.jpg" alt="Card Image 3" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 3</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./images/genshin-impact-scenery-uhdpaper.com-hd-3.2969.jpg" alt="Card Image 4" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Card Title 4</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
-    <footer>
-        <img src="./images/genshin.png" alt="Footer Logo">
+    </section>
 
-        <!-- Footer buttons -->
-        <div>
-            <button>Button 1</button>
-            <button>Button 2</button>
+    <!-- 4 image gallery section -->
+    <section class="container-fluid py-5">
+        <h2 class="text-uppercase">Galeria</h2>
+        <div class="row no-gutters">
+            <div class="col-md-3 col-sm-6 col-6">
+                <img src="./images/desktop-wallpaper-genshin-impact-launches-on-ps5-april-28-brings-support-enhanced-textures-and-more-playstation-blog.jpg"
+                    alt="Image 1" class="img-fluid w-100">
+            </div>
+            <div class="col-md-3 col-sm-6 col-6">
+                <img src="./images/desktop-wallpaper-genshin-impact-launches-on-ps5-april-28-brings-support-enhanced-textures-and-more-playstation-blog.jpg"
+                    alt="Image 2" class="img-fluid w-100">
+            </div>
+            <div class="col-md-3 col-sm-6 col-6">
+                <img src="./images/desktop-wallpaper-genshin-impact-launches-on-ps5-april-28-brings-support-enhanced-textures-and-more-playstation-blog.jpg"
+                    alt="Image 3" class="img-fluid w-100">
+            </div>
+            <div class="col-md-3 col-sm-6 col-6">
+                <img src="./images/desktop-wallpaper-genshin-impact-launches-on-ps5-april-28-brings-support-enhanced-textures-and-more-playstation-blog.jpg"
+                    alt="Image 4" class="img-fluid w-100">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="logo.png" alt="Logo" width="30" height="30">
+            </div>
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>Phone: 555-555-5555</p>
+                <p>Email: [info@example.com](mailto:info@example.com)</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <p><a href="https://www.example.com" target="_blank">Visit our website</a></p>
+            </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>

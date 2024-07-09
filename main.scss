@@ -1,0 +1,32 @@
+// Colors
+$primary-color: #333; 
+$secondary-color: #666; 
+$accent-color: #0099ff;
+$background-color: #f9f9f9; 
+$black: #000000;
+
+// Fonts
+$font-family: 'Open Sans', sans-serif;
+$font-size: 16px;
+$heading-font-family: 'Montserrat', sans-serif; 
+$heading-font-size: 24px; 
+
+// Spacing
+$gutter-width: 30px;
+$section-padding: 50px; 
+
+// Breakpoints
+$breakpoint-md: 768px; 
+$breakpoint-lg: 992px; 
+$breakpoint-xl: 1200px; 
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+
+
+footer {
+    background-color: $black;
+}
