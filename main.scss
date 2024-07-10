@@ -1,9 +1,10 @@
 // Colors
-$primary-color: #333; 
+$primary-color: #1d1f35; 
 $secondary-color: #666; 
 $accent-color: #0099ff;
 $background-color: #f9f9f9; 
-$black: #000000;
+$black: #080808;
+$white: #fff;
 
 // Fonts
 $font-family: 'Open Sans', sans-serif;
@@ -20,12 +21,27 @@ $breakpoint-md: 768px;
 $breakpoint-lg: 992px; 
 $breakpoint-xl: 1200px; 
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 .logo {
     width: 70px;
     height: auto;
 }
 
+nav {
+    background-color: $primary-color;
+}
 
+.navbar-light .navbar-nav .nav-link {
+    color: $white;
+}
+
+.active {
+    color: $accent-color;
+}
 
 footer {
     background-color: $black;
