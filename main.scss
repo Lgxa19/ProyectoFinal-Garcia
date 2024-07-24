@@ -1,16 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+@font-face { font-family: Genshin; src: url('/fonts/Genshin.ttf'); } 
+
 // Colors
-$primary-color: #1d1f35;
-$secondary-color: #666;
-$accent-color: #0099ff;
-$background-color: #f9f9f9;
-$black: #080808;
+$primary-color: #2274A5;
+$secondary-color: #d8dce9;
+$accent-color: #FC9E4F;
+$background-color: #F8F9FA;
+$black: #0A0908;
 $white: #fff;
 
 // Fonts
-$font-family: 'Open Sans',
+$title-family: 'Rubik',
 sans-serif;
 $font-size: 16px;
-$heading-font-family: 'Montserrat',
+$rest-family: 'Montserrat',
 sans-serif;
 $heading-font-size: 24px;
 
@@ -23,12 +30,16 @@ $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-
 * {
     padding: 0;
     margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-color: $background-color;
 }
 
 .logo {
@@ -49,7 +60,7 @@ nav {
 }
 
 footer {
-    background-color: $black;
+    background-color: $primary-color;
 }
 
 .banner-image {
@@ -67,11 +78,13 @@ footer {
 .gallery {
     &.gallery img {
         width: auto;
-    height: 100%;
-    object-fit: cover;
+        height: 100%;
+        object-fit: cover;
     }
+
     .gallery-title {
         text-align: center;
+
         .welcome-title {
             font-family: "PT Serif", serif;
             font-weight: 600;
@@ -79,7 +92,7 @@ footer {
             margin: 0 auto;
             display: block;
         }
-    
+
         h3 {
             font-family: "Raleway", sans-serif;
             font-optical-sizing: auto;
@@ -89,4 +102,44 @@ footer {
             display: block;
         }
     }
+}
+
+.black {
+    color: $black;
+}
+
+button {
+    background-color: $accent-color;
+}
+
+.jumbotron {
+    background-color: $secondary-color;
+}
+
+.genshin-text {
+    font-family: "Genshin", sans-serif;
+}
+
+.title-text {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    object-position: 95% 100%;
+}
+
+.button-link-primary {
+    background-color: $accent-color;
+    color: $black;
+}
+
+.button-link-secondary {
+    background-color: $secondary-color;
+    color: $black;
 }

@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body>
+<body class="bg-light">
 
-    <!-- Navigation -->
+    <!-- Menu -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="./index.html">
             <img class="logo" src="./images/genshin.png" alt="Logo">
@@ -23,17 +23,17 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Genshin Impact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./pages/teyvat.html">Teyvat</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./pages/teams.html">Personajes</a>
+                    <a class="nav-link" href="./pages/teams.html">Elementos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./pages/characters.html">Elementos</a>
+                    <a class="nav-link" href="./pages/characters.html">Personajes</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./pages/contacto.html">Contacto</a>
@@ -42,16 +42,15 @@
         </div>
     </nav>
 
-    
-    <!-- Fullwidth 2-column section -->
+
+    <!-- Jumbotron -->
     <section class="container-fluid p-0">
         <div class="row no-gutters">
-            <div class="col-md-6 p-0 d-flex align-items-stretch">
-                <div
-                    class="jumbotron jumbotron-fluid text-center bg-white text-black w-100 h-100 d-flex align-items-center">
-                    <div class="container">
-                        <h1 class="display-4">Half Jumbotron</h1>
-                        <p class="lead">This is the left half of the section.</p>
+            <div class="col-md-6 p-0 d-flex align-items-stretch bg-light">
+                <div class="jumbotron-fluid text-center text-black w-100 h-100 d-flex align-items-center">
+                    <div class="container my-5">
+                        <h1 class="display-4 genshin-text">Genshin Impact</h1>
+
                     </div>
                 </div>
             </div>
@@ -61,88 +60,119 @@
         </div>
     </section>
 
+    <!-- Texto -->
     <div class="px-4 py-5 my-5 text-center">
-        <!-- <img class="d-block mx-auto mb-4" src="./images/genshin.png" alt="" width="72" height="57"> -->
-        <h1 class="display-5 fw-bold"> Centered <span class="tou-node" id="tou-0-7302fdcd-b293-4ae5-98e9-2fcd6c96c94b"
-                lang="fr"></span></h1>
+        <h1 class="display-5 fw-bold title-text">¡Bienvenido!</h1>
         <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
-                most popular front-end open source <span class="tou-node"
-                    id="tou-0-7e314e08-bec1-4b1c-bd36-fdeb989c9c50"></span>, featuring Sass variables and mixins,
-                responsive grid <span class="tou-node" id="tou-0-6190c8ae-2704-4c5e-a25d-39818ffa0597"
-                    lang="fr"></span>, extensive prebuilt <span class="tou-node"
-                    id="tou-0-d9efca06-f56a-475b-9120-5fd1a4514dd4"></span>, and powerful JavaScript plugins.</p>
-            <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="btn btn-primary btn-lg px-4 gap-3 mx-2">Primary button</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4 mx-2">Secondary</button>
-            </div> -->
+            <p class="lead mb-4">Genshin Impact es un JRPG gratuito de mundo abierto en el que podremos explorar un
+                mundo vasto lleno de mazmorras, secretos y aventuras que vivir. Si te interesa, no dudes en tomar un
+                vistazo a su website oficial</p>
+            <div>
+                <a href="#" class="btn btn-lg button-link-primary">Web oficial</a>
+            </div>
         </div>
     </div>
 
 
     <!-- Card section -->
-    <section class="container py-5">
+    <section class="container ">
         <div class="gallery-title pb-3">
-            <h2 class="text-uppercase welcome-title">¡Bienvenido!</h2>
-            <h3 class="text-uppercase">Toma un vistazo al mundo de Teyvat</h3>
+            <h2 class="text-uppercase title-text">Mi sitio web</h2>
         </div>
         <div class="row">
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="./images/big/Fontaine.jpg" alt="Card Image 1" class="card-img-top">
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="./images/reputation/mondstadtrp.png" alt="Card Image 1"
+                        class="card-img-top img-fluid h-100">
                     <div class="card-body">
                         <h5 class="card-title">Card Title 1</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <a href="#" class="btn button-link-secondary">Teyvat</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="./images/big/archons.png" alt="Card Image 2" class="card-img-top">
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="./images/reputation/liyuerp.webp" alt="Card Image 2" class="card-img-top h-100">
                     <div class="card-body">
                         <h5 class="card-title">Card Title 2</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <a href="#" class="btn button-link-secondary">Elementos</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="./images/big/kaveh.jpg" alt="Card Image 3" class="card-img-top">
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="./images/reputation/inazumarp.webp" alt="Card Image 3" class="card-img-top h-100">
                     <div class="card-body">
                         <h5 class="card-title">Card Title 3</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <a href="#" class="btn button-link-secondary">Personajes</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="card">
-                    <img src="./images/big/BaizhuCard.webp" alt="Card Image 4" class="card-img-top">
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="./images/reputation/sumerurp.webp" alt="Card Image 4" class="card-img-top h-100">
                     <div class="card-body">
                         <h5 class="card-title">Card Title 4</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
+                        <a href="#" class="btn button-link-secondary">Contacto</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Mini Gallery -->
+    <!-- Primera seccion -->
+    <div class="container mb-4">
+        <div class="gallery-title pb-3">
+            <h3 class="text-uppercase title-text">¿Quieres ver mas?</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4 my-lg-auto my-2">
+                <img src="./images/big/ayato.jpg" alt="Image 1" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 my-lg-auto my-2">
+                <img src="./images/big/nilou.jpg" alt="Image 2" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 my-lg-auto my-2">
+                <img src="./images/big/lyney.jpg" alt="Image 3" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+
+    <!-- Segunda seccion -->
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./images/big/zhongli.jpg" alt="Image 4" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6 my-lg-auto my-4 mx-auto">
+                <h2 class="text-center">Welcome to our website</h2>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla
+                    auctor, vestibulum magna sed, convallis ex.</p>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla
+                    auctor, vestibulum magna sed, convallis ex.</p>
+                <a href="#" class="btn-block text-center button-link-primary py-1 rounded">Learn More</a>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
-    <footer class="container-fluid py-5">
+    <footer class="container-fluid py-5 footer1">
         <div class="row">
             <div class="col-md-4 w-auto h-100">
                 <img src="./images/genshin.png" alt="Logo" width="30" height="30">
             </div>
             <div class="col-md-4">
-                <h5>Contact Us</h5>
-                <p>Phone: 555-555-5555</p>
-                <p>Email: [info@example.com](mailto:info@example.com)</p>
+                <h5>Contacto</h5>
+                <p>Telefono: 555-555-5555</p>
+                <p>Email: info@example.com</p>
             </div>
             <div class="col-md-4">
-                <h5>Follow Us</h5>
+                <h5>Siguenos</h5>
                 <p><a href="https://www.example.com" target="_blank">Visit our website</a></p>
             </div>
         </div>
