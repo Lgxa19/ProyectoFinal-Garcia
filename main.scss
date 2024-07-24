@@ -1,27 +1,32 @@
 // Colors
-$primary-color: #1d1f35; 
-$secondary-color: #666; 
+$primary-color: #1d1f35;
+$secondary-color: #666;
 $accent-color: #0099ff;
-$background-color: #f9f9f9; 
+$background-color: #f9f9f9;
 $black: #080808;
 $white: #fff;
 
 // Fonts
-$font-family: 'Open Sans', sans-serif;
+$font-family: 'Open Sans',
+sans-serif;
 $font-size: 16px;
-$heading-font-family: 'Montserrat', sans-serif; 
-$heading-font-size: 24px; 
+$heading-font-family: 'Montserrat',
+sans-serif;
+$heading-font-size: 24px;
 
 // Spacing
 $gutter-width: 30px;
-$section-padding: 50px; 
+$section-padding: 50px;
 
 // Breakpoints
-$breakpoint-md: 768px; 
-$breakpoint-lg: 992px; 
-$breakpoint-xl: 1200px; 
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
     padding: 0;
     margin: 0;
 }
@@ -45,4 +50,43 @@ nav {
 
 footer {
     background-color: $black;
+}
+
+.banner-image {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+
+.collage-image {
+    width: auto;
+    height: 100%;
+    object-fit: fill;
+}
+
+.gallery {
+    &.gallery img {
+        width: auto;
+    height: 100%;
+    object-fit: cover;
+    }
+    .gallery-title {
+        text-align: center;
+        .welcome-title {
+            font-family: "PT Serif", serif;
+            font-weight: 600;
+            font-style: normal;
+            margin: 0 auto;
+            display: block;
+        }
+    
+        h3 {
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 450;
+            font-style: normal;
+            margin: 0 auto;
+            display: block;
+        }
+    }
 }

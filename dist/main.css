@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+nav {
+  background-color: #1d1f35;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.active {
+  color: #0099ff;
+}
+
+footer {
+  background-color: #080808;
+}
+
+.banner-image {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.collage-image {
+  width: auto;
+  height: 100%;
+  object-fit: fill;
+}
+
+.gallery.gallery img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery .gallery-title {
+  text-align: center;
+}
+.gallery .gallery-title .welcome-title {
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0 auto;
+  display: block;
+}
+.gallery .gallery-title h3 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  margin: 0 auto;
+  display: block;
+}
